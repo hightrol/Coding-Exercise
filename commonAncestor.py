@@ -11,7 +11,6 @@ class TreeNode:
         self.left = None
         self.right = None
         
-        
 def commonAncestor(root, node1, node2):
     x = None
     def dfs(root0):

@@ -34,9 +34,11 @@ def maxSubMatrix(mtx):
     return maxSum
 
 
-maxSubArray([1,-2,3,-2,1.5,3])
 
-maxSubMatrix([[1,2,-1,-4,-20],[-8,-3,4,2,1],[3,8,10,1,3],[-4,-1,1,7,-6]])
+res1 = maxSubArray([1,-2,3,-2,1.5,3])
+
+
+res2 = maxSubMatrix([[1,2,-1,-4,-20],[-8,-3,4,2,1],[3,8,10,1,3],[-4,-1,1,7,-6]])
             
     
     

@@ -13,4 +13,6 @@ def Josephus(lst, k):
     else:
         m = k % len(lst)
         return Josephus(lst[m:] + lst[:(m-1)], k)
+
+
         

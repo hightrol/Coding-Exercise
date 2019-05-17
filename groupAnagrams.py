@@ -22,3 +22,4 @@ def groupAnagrams(strs):
     for val in dct.values():
         lst.append([strs[k] for k in val])
     return lst
+

@@ -27,3 +27,6 @@ def solveNQueens(n):
     
     dfs([], [], [])
     return list(map(convert2, result))
+
+
+solveNQueens(6)

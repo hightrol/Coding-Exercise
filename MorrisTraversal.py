@@ -30,4 +30,4 @@ def MorrisTraversal(root):
                 prev.right = None
                 result.append(p.val)
                 p = p.right
-        
+

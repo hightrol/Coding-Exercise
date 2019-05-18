@@ -5,7 +5,6 @@ Created on Sun Jan  7 13:24:02 2018
 @author: haimingwd
 """
 
-
 ## minesweeper
 ## modify game board in place
 def updateBoard(board, click):
@@ -35,5 +34,5 @@ def updateBoard(board, click):
             board[i][j] = 'B'
             for x, y in [(1, 0), (-1, 0), (0, 1), (0, -1), (1, 1), (-1, -1), (1, -1), (-1, 1)]:
                 dfs(i+x, j+y)
-    
+
     dfs(click[0], click[1])

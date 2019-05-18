@@ -49,11 +49,11 @@ class Streams:
     def showAll(self):
         lst = [-x for x in self.sHeap] + self.lHeap
         print(lst)
+
             
 s = Streams()
 s.add(1)
 s.add(3)
-s.median()
 s.add(2)
 s.median()
 s.add(2.5)

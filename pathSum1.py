@@ -27,6 +27,8 @@ def pathSum1(root, target):
                     dfs(node.right, history+[node], sum0+node.val)
     
     dfs(root, [], 0)
+
+
     
     
         

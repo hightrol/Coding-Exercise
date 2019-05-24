@@ -35,5 +35,7 @@ def setZeroes(mtx):
     if col == 0:
         for i in range(m):
             mtx[i][0] = 0
+
+
         
         

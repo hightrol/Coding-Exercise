@@ -36,3 +36,4 @@ def updateBoard(board, click):
                 dfs(i+x, j+y)
 
     dfs(click[0], click[1])
+
